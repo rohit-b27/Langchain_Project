@@ -1,0 +1,13 @@
+prefix=D:/projects/Langchain_Project/venv-1/Library
+exec_prefix=D:/projects/Langchain_Project/venv-1/Library
+libdir=D:/projects/Langchain_Project/venv-1/Library/lib
+sharedlibdir=D:/projects/Langchain_Project/venv-1/Library/lib
+includedir=D:/projects/Langchain_Project/venv-1/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
