@@ -7,3 +7,5 @@ langchain
 pandas 
 numpy 
 python-dotenv
+cassio 
+tiktoken
